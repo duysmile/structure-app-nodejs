@@ -1,0 +1,26 @@
+{
+  "name": "structure-app-nodejs",
+  "version": "1.0.0",
+  "description": "Boilerplate for nodejs app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duysmile/structure-app-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duysmile/structure-app-nodejs/issues"
+  },
+  "homepage": "https://github.com/duysmile/structure-app-nodejs#readme",
+  "dependencies": {
+    "@vnlp/logger": "github:duysmile/logger",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "parse-function": "^5.6.10"
+  }
+}
