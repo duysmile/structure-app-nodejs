@@ -1,5 +1,5 @@
-const { StatusCodes } = require("http-status-codes");
-const VError = require("../common/error");
+const { StatusCodes } = require('http-status-codes');
+const VError = require('../common/error');
 
 module.exports = (logger) => (err, req, res, _) => {
     if (err instanceof VError) {

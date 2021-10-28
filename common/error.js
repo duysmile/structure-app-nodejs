@@ -1,4 +1,4 @@
-const { ERROR } = require("../constants/error");
+const { ERROR } = require('../constants/error');
 const { StatusCodes } = require('http-status-codes');
 
 class VError extends Error {
@@ -13,7 +13,7 @@ class VError extends Error {
         if (message) {
             super(message);
         } else {
-            super("something went wrong");
+            super('something went wrong');
         }
 
         this._rootCause = err;
