@@ -21,6 +21,8 @@
     "@vnlp/logger": "github:duysmile/logger",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "http-status-codes": "^2.1.4",
     "parse-function": "^5.6.10"
   }
 }
