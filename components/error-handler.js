@@ -19,5 +19,7 @@ module.exports = (logger) => (err, req, res, _) => {
 
     logger.error(err, 'unexpected error');
     res.status(StatusCodes.INTERNAL_SERVER_ERROR)
-        .send('unexpected error');
+        .json({
+            message: 'unexpected error',
+        });
 };
